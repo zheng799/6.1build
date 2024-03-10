@@ -20,7 +20,7 @@ rm -rf feeds/luci/applications/luci-app-netdata
 rm -rf feeds/luci/applications/luci-app-serverchan
 
 # 添加额外插件
-git clone --depth=1 https://github.com/imy7/luci-app-turboacc.git package/luci-app-turboacc
+git clone --depth=1 https://github.com/imapproxy/luci-app-turboacc.git package/luci-app-turboacc
 git clone --depth=1 https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
 git clone --depth=1 https://github.com/flytosky-f/openwrt-vlmcsd.git package/openwrt-vlmcsd
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
