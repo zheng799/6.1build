@@ -33,7 +33,7 @@ svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-ssr-mudb-ser
 svn export https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-eqos package/luci-app-eqos
 # svn export https://github.com/syb999/openwrt-19.07.1/trunk/package/network/services/msd_lite package/msd_lite
 #curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
-git clone --depth=1 https://github.com/xm0625/luci-app-turboacc.git package/luci-app-turboacc
+#git clone --depth=1 https://github.com/xm0625/luci-app-turboacc.git package/luci-app-turboacc
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
 svn export https://github.com/haiibo/packages/trunk/luci-app-vssr package/luci-app-vssr
